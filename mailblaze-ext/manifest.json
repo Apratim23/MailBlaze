@@ -1,0 +1,36 @@
+{
+    "name": "MailBlaze",
+    "description": "AI powered email assistant for replying to emails.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "permissions": [
+        "activeTab",
+        "storage"
+    ],
+    "host_permissions": [
+        "http://localhost:8080/*",
+        "*://mail.google.com/*"
+    ],
+    "content_scripts":[
+        {
+            "js": ["content.js"],
+            "matches": [ "*://mail.google.com/*"],
+            "css": ["content.css"],
+            "run_at": "document_end"
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": ["icon.png"],
+            "matches": ["*://mail.google.com/*"]
+        }
+    ],
+    "action": {
+        "default_title": "MailBlaze"
+    }
+}
