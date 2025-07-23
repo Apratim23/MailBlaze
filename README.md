@@ -20,6 +20,13 @@ Welcome to **MailBlaze**, your intelligent email assistant designed to streamlin
 ## 🔗 Installation
 
 **Download the Extension:**
+1. Clone or download the repository.
+2. Open the Chrome browser.
+3. Go to `chrome://extensions/`.
+4. Enable `Developer mode`.
+5. Click on `Load unpacked`.
+6. Select the downloaded folder.
+7. The extension will be added to the browser.
 
 Currently, the MailBlaze extension is not available in the Chrome Web Store.
 **Run the Spring Backend:**
