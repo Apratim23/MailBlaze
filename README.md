@@ -14,6 +14,7 @@ Welcome to **MailBlaze**, your intelligent email assistant designed to streamlin
 - **Customizable Settings:** Tailor the assistant's behavior to suit your preferences.
 
 ## Preview 
+
 [Video Link](https://github.com/Apratim23/MailBlaze/blob/main/Preview/2025-07-23%2017-55-56.mkv)
 
 ## 🔗 Installation
