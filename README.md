@@ -18,14 +18,15 @@ Welcome to **MailBlaze**, your intelligent email assistant designed to streamlin
 
 ## 🔗 Installation
 
-1. **Download the Extension:**
-   - Go to the [Chrome Web Store](https://chrome.google.com/webstore/detail/mailblaze/knjphbkmbiibpjmmcdfnfojeamkclkh).
+**Download the Extension:**
 
-2. **Add to Chrome:**
-   - Click on "Add to Chrome" and confirm by clicking "Add Extension".
+Currently, the MailBlaze extension is not available in the Chrome Web Store.
+**Run the Spring Backend:**
 
-3. **Start Using MailBlaze:**
-   - Open Gmail and start composing emails. Look for the MailBlaze icon to activate the assistant!
+Ensure the Spring backend is running through IntelliJ IDEA on port 8080.
+**Start Using MailBlaze:**      
+
+Open Gmail and start composing emails. Look for the MailBlaze icon to activate the assistant! You can visit the frontend site at port 4153.
 ## 🛠 Tech Stack
 
 MailBlaze is built with a modern tech stack that ensures performance, scalability, and a delightful user experience:
